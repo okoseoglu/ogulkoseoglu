@@ -1,14 +1,7 @@
 
 # SEO
-title: Oğul Köseoğlu
-description: A simple and elegant theme for Jekyll and GitHub Pages.
-
-# social
-social_link: twitter
-social_username: ogulkoseoglu
-github_repo: ogulkoseoglu # the GitHub repo name for your project
-github_username: okoseoglu
-theme_color: light
+title: Oğul Köseoğlu - Turkish translator, interpreter
+description: Translator and interpreter based in Turkey.
 
 # Theme
 remote_theme: 'internet-de-france/athena'
@@ -29,30 +22,3 @@ defaults:
       type: "posts"
     values:
       categories: ""
-
-# Stastic UI
-remote_theme_layouts: 
-  - ""
-  - default
-  - page
-  - post
-  - home
-  - category_index
-social_links:
-  - twitter
-  - instagram
-  - medium
-  - dribbble
-
-theme_colors:
-  - light
-  - black
-  - blue
-  - gray
-  - magenta
-  - orange
-  - red
-  - white
-  - yellow
-
-
