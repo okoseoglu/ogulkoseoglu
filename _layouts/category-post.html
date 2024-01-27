@@ -11,6 +11,12 @@ layout: default
     </div>
   </div>
 
+  {% for post in site.categories.works %}
+   {% if post.img %}
+  <a class="post-thumbnail" height="100%" style="background-image: url({{"/assets" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl }}"></a>
+ {% endif %}
+  {% endfor %}
+
   <div class="prose py-4" itemprop="articleBody">
       {{ content }}
   </div>
