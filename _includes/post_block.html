@@ -1,6 +1,10 @@
 <!-- Renders post date, title, and snippet of text. -->
 
 <div class="py-2 mb-2 prose">
+  {% for post in site.categories.works %}
+   {% if post.img %}
+  <a class="post-thumbnail" style="background-image: url({{"/assets" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+ {% endif %}
   <h2 class="h1 lh-condensed col-9 mb-0">
     <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
