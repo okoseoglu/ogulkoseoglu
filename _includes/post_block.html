@@ -2,7 +2,7 @@
 
 <div class="py-2 mb-2 prose">
    {% if post.img %}
-  <div class="post-thumbnail" style="background-image: url({{"/assets/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | relative_url }}"></div>
+  <div class="post-thumbnail" style="background-image: url({{"/assets/" | prepend: site.baseurl | append : post.img}})"></div>
  {% endif %}
   
   <style>
