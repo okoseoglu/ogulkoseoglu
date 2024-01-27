@@ -11,7 +11,7 @@ layout: default
     </div>
   </div>
   
-  <div class="post-thumbnail" style="background-image: url({{"/assets/" | prepend: site.baseurl | append: post.img}})"></div>
+  <div class="post-thumbnail" style="background-image: url({{'/assets/' | append: post.img | prepend: site.baseurl }})"></div>
   
   <div class="prose py-4" itemprop="articleBody">
       {{ content }}
