@@ -13,12 +13,12 @@ layout: default
 
   {% for post in site.categories.works %}
    {% if post.img %}
-  <div class="post-thumbnail" style="background-image: url({{"/assets/" | prepend: site.url | append : post.img}})" href="{{ post.url | relative_url }}"></div>
+  <div class="post-thumbnail" style="background-image: url({{"/assets/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | relative_url }}"></div>
  {% endif %}
   {% endfor %}
 
   <style>
-    .post-thumbnail {display: inline-block; height: 30rem; background-repeat:no-repeat; background-size:contain;}
+    .post-thumbnail {height: 30rem; background-repeat:no-repeat; background-size:contain;}
   </style>
 
   <div class="prose py-4" itemprop="articleBody">
