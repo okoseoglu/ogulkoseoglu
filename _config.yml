@@ -7,6 +7,8 @@ description: Translator and interpreter based in Turkey.
 remote_theme: 'internet-de-france/athena'
 baseurl: '/ogulkoseoglu'
 
+permalink: none
+
 # Defaults
 
 defaults:
