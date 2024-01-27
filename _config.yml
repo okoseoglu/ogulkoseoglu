@@ -1,18 +1,18 @@
 
 # SEO
-title: Athena Jekyll Theme
+title: Oğul Köseoğlu
 description: A simple and elegant theme for Jekyll and GitHub Pages.
 
 # social
 social_link: twitter
-social_username: broccolini
-github_repo: athena # the GitHub repo name for your project
-github_username: broccolini
+social_username: ogulkoseoglu
+github_repo: ogulkoseoglu # the GitHub repo name for your project
+github_username: okoseoglu
 theme_color: light
 
 # Theme
 remote_theme: 'internet-de-france/athena'
-baseurl: '/risible_designer'
+baseurl: '/ogulkoseoglu'
 
 # Defaults
 
