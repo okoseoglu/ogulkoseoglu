@@ -3,22 +3,13 @@ layout: default
 ---
 
 <article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="mt-4 mb-2 clearfix header-text">
+  <div class="mt-4 mb-2 clearfix header-text" style="background-image: url({{"/assets/" | prepend: site.baseurl | append : post.img}}); height: 30rem; background-repeat:no-repeat; background-size:contain;" href="{{ post.url | relative_url }}">
     <h1 class="h0 inline-block py-2 mt-4 header-title">{{ page.title }}</h1>
     <div class="clearfix mb-4 py-1">
       <div class="col-1 sm-width-full border-top-thick">
       </div>
     </div>
   </div>
-{% for post in site.categories.works %}
-   {% if post.img %}
-  <div class="post-thumbnail" style="background-image: url({{"/assets/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | relative_url }}"></div>
- {% endif %}
-  {% endfor %}
-
-  <style>
-    .post-thumbnail {height: 30rem; background-repeat:no-repeat; background-size:contain;}
-  </style>
 
   <div class="prose py-4" itemprop="articleBody">
       {{ content }}
