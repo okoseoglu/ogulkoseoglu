@@ -13,7 +13,7 @@ layout: default
 
   {% for post in site.categories.works %}
    {% if post.img %}
-  <a class="post-thumbnail" style="background-image: url('{{"/assets/" | relative_url | site.url | append : post.img}}')" href="{{post.url | relative_url }}"></a>
+  <div class="post-thumbnail" style="background-image: url({{"/assets/" | relative_url | site.url | append : post.img}})" href="{{post.url | relative_url }}"></div>
  {% endif %}
   {% endfor %}
 
