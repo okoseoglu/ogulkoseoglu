@@ -10,10 +10,11 @@ layout: default
       </div>
     </div>
   </div>
-
+{% for post in site.categories.works %}
    {% if post.img %}
   <div class="post-thumbnail" style="background-image: url({{"/assets/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | relative_url }}"></div>
  {% endif %}
+  {% endfor %}
 
   <style>
     .post-thumbnail {height: 30rem; background-repeat:no-repeat; background-size:contain;}
