@@ -11,7 +11,9 @@ layout: default
     </div>
   </div>
   
+  {% if post in site.posts %}
   <div class="post-thumbnail" style="background-image: url({{'/assets/' | append: post.img | prepend: site.baseurl }})"></div>
+  {% endif %}
   
   <div class="prose py-4" itemprop="articleBody">
       {{ content }}
