@@ -1,6 +1,5 @@
 ---
 layout: category-post
-title:  "DEMOS Research Association report on the LGBTI+ and women’s organizations and their struggle for peace in Turkey"
+title:  "<em>Candidate knot</em> and other reports for Turkey recap"
 categories: works
 ---
-
