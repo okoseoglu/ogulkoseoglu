@@ -1,1 +1,6 @@
+---
+layout: category-post
+title:  "DEMOS Research Association report on the LGBTI+ and women’s organizations and their struggle for peace in Turkey"
+categories: works
+---
 
