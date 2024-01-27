@@ -11,7 +11,7 @@ layout: default
     </div>
   </div>
 
-  <div class="post-thumbnail" style="background-image: url(https://www.okoseoglu.github.io/ogulkoseoglu/assets/{{ post.img }})"></div>
+  <div class="post-thumbnail" style="background-image: url({{ post.img }} | 'https://www.okoseoglu.github.io/ogulkoseoglu/assets/')"></div>
   
   <div class="prose py-4" itemprop="articleBody">
       {{ content }}
