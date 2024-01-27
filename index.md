@@ -1,8 +1,7 @@
 ---
 layout: home
 permalink: "/"
-title: Athena Jekyll Theme
-
+title: Oğul Köseoğlu
 ---
 
 A simple and elegant theme for Jekyll and GitHub Pages.
