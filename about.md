@@ -16,12 +16,15 @@ Born in Emirgan, Istanbul in July 2018 in a family of community cats living on t
 
 ### Terese Cristiansson
 **Journalist, Author, Foreign News Correspondent at TV4, Sweden**
+
 I have worked with Ogul all over Turkey for several years and I am always amazed by his professionalism. Besides his professional skills he is very good in networking, meeting people and to travel with. I cannot recommend him enough.
 
 ### Elena Monicelli
 **Director at the Peace School Foundation of Monte Sole, Italy**
+
 We had the chance to work with Ogul in beautiful Istanbul. He accompanied us for three days of intense and interactive workshops. He was able to gently understand every slight nuance of us speaking and of the participants responding. He is a very nice person and it is impossible not to trust firstly his work and then his smile. Thank you, Ogul.
 
 ### Diego Cupolo
 **Reporter, multimedia journalist, United States**
+
 I have worked with Ogul for the last three years and he has consistently delivered the professional translation services I have sought as a journalist in Turkey. Whether on the street in Istanbul for candid interviews or in Ankara’s parliament with state deputies, he has proven to be well suited for a variety of situations and my work has benefited from his knowledge of Turkish politics and culture.
