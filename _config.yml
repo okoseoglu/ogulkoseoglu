@@ -5,6 +5,8 @@ description: Translator and interpreter based in Turkey, providing services in E
 
 # Theme
 remote_theme: 'internet-de-france/athena'
+
+url: 'https://okoseoglu.github.io'
 baseurl: '/ogulkoseoglu'
 
 permalink: none
