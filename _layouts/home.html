@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    
+  {% include header.html %}
+   
+      <div class="container mx-auto px-2 py-2">
+        <h2>Featured Posts</h2>
+        {% for post in site.posts %}
+          {% include post_block.html %}
+        {% endfor %}
+      </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
