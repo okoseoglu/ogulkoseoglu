@@ -1,7 +1,6 @@
 ---
 layout: category-post
 title:  "A translation of Oktay Rifat's poem <em>Starry View</em> published in <em>the Southern Review</em>"
-date:   2016-08-05 20:20:56 -0400
 categories: works
 img: southernreview.jpg
 ---
