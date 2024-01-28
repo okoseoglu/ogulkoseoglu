@@ -10,9 +10,8 @@ layout: default
       </div>
     </div>
   </div>
+   <img src="{{'/assets/' | append: page.img | prepend: site.baseurl }}" />
   </div>
-
-  <img src="{{'/assets/' | append: page.img | prepend: site.baseurl }}" />
   
   <div class="prose py-4" itemprop="articleBody">
       {{ content }}
