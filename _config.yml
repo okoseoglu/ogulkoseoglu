@@ -26,3 +26,5 @@ defaults:
       type: "posts"
     values:
       categories: ""
+
+markdown: kramdown
