@@ -4,13 +4,15 @@ layout: default
 
 <img src="{{'/assets/' | append: page.img | prepend: site.baseurl }}" width="100%" style="position:relative"/>
 
-<article style="position:absolute; top:1rem;" class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
+<div style="position:absolute; top:1rem;">
+<article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="mt-4 mb-2 clearfix header-text">
     <h1 class="h0 inline-block py-2 mt-4 header-title">{{ page.title }}</h1>
     <div class="clearfix mb-4 py-1">
       <div class="col-1 sm-width-full border-top-thick">
       </div>
     </div>
+  </div>
   </div>
   
   <div class="prose py-4" itemprop="articleBody">
