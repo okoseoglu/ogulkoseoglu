@@ -16,17 +16,15 @@
     {{ content }}
     <div class="col-1 sm-width-full border-top-thick">
   </div>
-</div>
-           
-         
-        
+</div>  
         <h2>Featured Works</h2>
         
         {% for post in site.posts %}
           {% include post_block.html %}
-        
         {% endfor %}
-      </div>
+
+             <div style="display:inline;"><span><a href="{{ site.url }}/about">About</a></span><span><a href="">{{ site.url }}/works</a></span></div>
+           </div>
 
     {% include footer.html %}
 
