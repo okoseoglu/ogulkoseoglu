@@ -5,6 +5,14 @@ permalink: /works/
 category_name: works
 ---
 
-{% for post in site.tags.literature %}
-<h2>{{ post.title }}</h2>
-{% endfor %}
+<ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      {% for post in site.tags.journalism %}
+        {% if post.tag %}
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
