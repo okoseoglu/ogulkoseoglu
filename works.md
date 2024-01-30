@@ -5,6 +5,6 @@ permalink: /works/
 category_name: works
 ---
 
-{% for page in site.page %}
-<h3>{{ page.title }}</h3>
+{% for post in site.tags.literature %}
+<h2>{{ post.title }}</h2>
 {% endfor %}
