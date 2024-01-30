@@ -1,7 +1,17 @@
 <div class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
   <div class="border-top-thick">
     
-{% include header.html %}
+<ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+            {{ my_page.title }}
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
 </div>
 
