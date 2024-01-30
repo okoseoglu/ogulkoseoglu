@@ -28,3 +28,9 @@ defaults:
       categories: ""
 
 markdown: kramdown
+
+tags:
+- journalism
+- literature
+- human-rights
+
