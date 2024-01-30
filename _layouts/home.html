@@ -10,7 +10,7 @@
       <div class="container mx-auto px-2 py-2">
 
         
-           <div class="mt-4 mb-2 clearfix header-text">
+<div class="mt-4 mb-2 clearfix header-text">
   <h1 class="h0 inline-block py-2 mt-4 header-title">{{ page.title }}</h1>
   <div class="clearfix mb-4 py-1">
     {{ content }}
@@ -23,7 +23,12 @@
           {% include post_block.html %}
         {% endfor %}
 
-             <div style="display:inline;"><h2><a href="{{ site.url }}/about">About</a></h2> <h2><a href="{{ site.url }}/works">Works</a></h2></div>
+             <div>
+               <h3><em><a href="{{ site.url }}/about">About</a></em></h3>
+               <h3><em><a href="{{ site.url }}/works">Works</a></em></h2>
+             </div>
+
+  
            </div>
 
     {% include footer.html %}
