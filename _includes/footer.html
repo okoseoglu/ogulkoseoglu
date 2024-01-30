@@ -3,10 +3,9 @@
     
     <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
       <li class="inline-block mr-1">
-       {% for post in site.tags.Play %}
-<h2>{{ post.title }}</h2>
-<time>{{ post.date }}</time>
-{% endfor %}
+       {% for page in site.page %}
+        <h3>{{ page.title }}</h3>
+      {% endfor %}
       </li>
     </ul>
   </div>
