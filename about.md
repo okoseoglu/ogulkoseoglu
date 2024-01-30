@@ -6,7 +6,7 @@ permalink: /about/
 
 ![]({{ site.baseurl }}/assets/ok.jpg)
 
-<style>img {width:5rem;border-radius:100%;}</style>
+<style>img {width:10rem;border-radius:100%;}</style>
 
 ### Oğul Köseoğlu
 Born in Muğla, in the southwestern coast of Turkey on July 27, 1983. Studied at the Languages Department in Mugla Anatolian High School. Studied American Literature in Hacettepe University, Ankara. Graduated from the Comparative Literature department of Istanbul Bilgi University. Experienced localization linguist. Notary certified legal translator registered at Muğla 1st and Istanbul 19th notary public. Bachelor of Letters. Reader. Chess player.
