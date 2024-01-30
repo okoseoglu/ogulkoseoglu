@@ -5,17 +5,5 @@ permalink: /works/
 category_name: works
 ---
 
-<!--
+{% raw %} {% for tag in site.tags %} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <li><a href='/tags?tagName={{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }})</li> {% endfor %} {% endraw %}
 
-Set the front matter:
-title = your page title and link name in the navigation
-permalink = the url for the page, i.e. example.com/my-awesome-category
-category_name = the name of the cateogry you want to use to group posts, you'll need to use the same name on post pages
-
-Save this page in the root directory.
-Use the same name for the filename as the permalink, i.e.
-
-permalink: /my-awesome-category/
-filename: my-awesome-category.html
-
--->
