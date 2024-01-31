@@ -7,12 +7,20 @@ category_name: works
 
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
- <span class="site-tag">
+ <p class="site-tag">
     <a href="/tag/{{ tag | first | slugify }}/"
         style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
-            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+            {{ tag[0] | replace:'-', ' ' }}
     </a>
-</span>
+</p>
 {% endfor %}
 
-<h1>ayı</h1>
+{% if page.category_name %}
+  {% assign category_name = page.category_name %}
+{% endif %}
+
+<div class="container mx-auto">
+  {% for post in site.categories[category_name] %}
+    {% include post_block.html %}
+  {% endfor %}
+</div>
