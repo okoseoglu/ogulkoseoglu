@@ -8,11 +8,11 @@ category_name: works
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
 
-<span>
+<div style="display: inline-block;">
     <a href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
             {{ tag[0] | replace:'-', ' ' | smartify }}
     </a>
-</span>
+</div>
 
 {% endfor %}
 
