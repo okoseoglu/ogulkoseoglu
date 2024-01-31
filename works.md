@@ -7,12 +7,10 @@ category_name: works
 
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
- <p class="site-tag">
     <a href="/tag/{{ tag | first | slugify }}/"
         style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
             {{ tag[0] | replace:'-', ' ' | smartify }}
     </a>
-</p>
 {% endfor %}
 
 {% if page.category_name %}
