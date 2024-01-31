@@ -1,5 +1,5 @@
 ---
-layout: category_index
+layout: page
 title: Works
 permalink: /works/
 category_name: works
