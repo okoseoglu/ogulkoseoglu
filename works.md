@@ -4,7 +4,7 @@ title: Works
 permalink: /works/
 category_name: works
 ---
-
+<span>
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
     <a href="/tag/{{ tag | first | slugify }}/"
@@ -12,6 +12,7 @@ category_name: works
             {{ tag[0] | replace:'-', ' ' | smartify }}
     </a>
 {% endfor %}
+</span>
 
 {% if page.category_name %}
   {% assign category_name = page.category_name %}
