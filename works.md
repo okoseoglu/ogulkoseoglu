@@ -4,15 +4,17 @@ title: Works
 permalink: /works/
 category_name: works
 ---
-<span>
+
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
-    <a href="/tag/{{ tag | first | slugify }}/"
-        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+
+<span>
+    <a href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
             {{ tag[0] | replace:'-', ' ' | smartify }}
     </a>
-{% endfor %}
 </span>
+
+{% endfor %}
 
 {% if page.category_name %}
   {% assign category_name = page.category_name %}
