@@ -9,9 +9,7 @@ category_name: works
 {% for tag in tags %}
 
 <div style="display: inline-block;">
-    <span><a href="/tag/{{ tag | first | slugify }}/">
-            {{ tag[0] | replace:'-', ' ' | smartify }}
-    </a> |</span>
+    <span><a href="/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' ' | smartify }}</a> | </span>
 </div>
 
 {% endfor %}
