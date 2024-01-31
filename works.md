@@ -10,7 +10,7 @@ category_name: works
  <p class="site-tag">
     <a href="/tag/{{ tag | first | slugify }}/"
         style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
-            {{ tag[0] | replace:'-', ' ' }}
+            {{ tag[0] | replace:'-', ' ' | smartify }}
     </a>
 </p>
 {% endfor %}
