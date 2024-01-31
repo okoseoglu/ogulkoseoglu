@@ -11,7 +11,7 @@ category_name: works
 <div style="display: inline-block;">
     <a href="/tag/{{ tag | first | slugify }}/">
             {{ tag[0] | replace:'-', ' ' | smartify }}
-    </a>
+    </a> |
 </div>
 
 {% endfor %}
