@@ -1,4 +1,4 @@
 ---
-layout: work
+layout: tag
 tag: human-rights
 ---
