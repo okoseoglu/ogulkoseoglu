@@ -5,5 +5,5 @@ tag: human-rights
 ---
 
 {% for tag in site.tags %}
-  <a href="/work/{{ tag[0] }}/">{{ tag[0] }}</a>
+  <a href="{{ site.baseurl }}/work/{{ tag[0] }}/">{{ tag[0] }}</a>
 {% endfor %}
